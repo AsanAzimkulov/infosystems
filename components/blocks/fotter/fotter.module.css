@@ -1,0 +1,62 @@
+.container {
+    text-align: center;
+    min-height: 300px;
+    margin: 150px 0px 0px;
+
+	background: rgba(84, 57, 236, 0.05);
+	backdrop-filter: blur(135px);
+}
+
+.wrapper {
+	max-width: 1300px;
+	margin: 0px auto;
+}
+
+.line {
+	width: 100%;
+}
+
+.topArea {
+	padding: 40px;
+	text-align: left;
+}
+.topArea .topAreaButton {
+	float: right;
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.logo {
+	height: 50px;
+}
+
+.bottomArea {
+	padding: 40px;
+	text-align: left;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.bottomCell {
+	color: #CDCDD2;
+	font-weight: bold;
+}
+
+.bottomCellFirst {
+	flex-grow: 1;
+}
+
+.bottomCellMiddle {
+	text-align: center;
+}
+
+.bottomCellLast {
+	text-align: right;
+	flex-grow: 1;
+}
+
+.bottomCellLast a {
+	padding: 0px 10px;
+}

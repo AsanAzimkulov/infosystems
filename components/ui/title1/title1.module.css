@@ -1,0 +1,11 @@
+/* h1, h2 { 
+    color: red;
+} */
+
+.title {
+  font-family: "Tomorrow";
+  /* font-size: 45px; */
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-shadow: 0px 0px 25px var(--color-aqua);
+}

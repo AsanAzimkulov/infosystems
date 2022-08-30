@@ -1,0 +1,55 @@
+.container {
+  position: relative;
+  /*background: url("/images/bg3-1.svg") center -1000px no-repeat;*/
+  margin-top: -80px;
+  background-size: 100%;
+  clip-path: polygon(
+    0% 0%,
+    20% 0%,
+    25% 80px,
+    75% 80px,
+    80% 0%,
+    100% 0%,
+    100% 100%,
+    0% 100%
+  );
+}
+
+.top-border {
+  height: 81px;
+  background-color: red;
+  clip-path: polygon(
+    0% 0px,
+    20% 0px,
+    25% 80px,
+    75% 80px,
+    80% 0px,
+    100% 0px,
+    100% 1px,
+    calc(80% + 1px) 1px,
+    calc(75% + 1px) 81px,
+    calc(25% - 1px) 81px,
+    calc(20% - 1px) 1px,
+    0% 1px
+  );
+  /* margin-top: 80px; */
+  /* background: linear-gradient(
+      180deg,
+      rgba(17, 217, 235, 1) 0%,
+      rgba(228, 43, 200, 1) 40%
+    ); */
+  background: linear-gradient(-90deg, #11d9eb 0%, #e42bc8 100%);
+}
+
+/* .bg1 {
+  position: absolute;
+  z-index: -1;
+
+  height: 2229px;
+  width: 2344px;
+  left: -102px;
+  top: -1000px;
+
+  background-size: cover;
+  background: url('/images/bg3-1.svg');
+} */

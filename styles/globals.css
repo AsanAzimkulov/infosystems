@@ -1,0 +1,50 @@
+/* Variables */
+:root {
+  --color-white: #ffffff;
+  --color-aqua: #11D9EB;
+  --color-dark: #0f0425;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
+  background: linear-gradient(
+    180deg,
+    rgba(22, 14, 70, 0.69) 0%,
+    rgba(7, 3, 30, 0.27) 44.66%,
+    rgba(7, 3, 30, 0.63) 68.39%,
+    rgba(7, 3, 30, 0) 100%
+  ), var(--color-dark);
+  color: var(--color-white);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+
+  body {
+    /* color: white; */
+    /* background: black; */
+  }
+}
+
+
+.contentWrapper {
+  max-width: 1500px;
+  margin: 0px auto;
+}

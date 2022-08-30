@@ -1,0 +1,44 @@
+.container {
+    text-align: center;
+    min-height: 300px;
+    margin: 200px 120px 0px;
+}
+
+.faqWrapper {
+	max-width: 800px;
+	margin: 70px auto 0px;
+}
+
+.faqItem {
+	background-color: #ddd;
+	text-align: left;
+	background: rgba(130, 141, 238, 0.07);
+	border: 0.5px solid #26252C;
+	backdrop-filter: blur(10px);
+	border-radius: 10px;
+	padding: 0px 20px;
+	margin-bottom: 10px;
+}
+
+.faqItem .title {
+	font-weight: bold;
+	padding: 15px 0px;
+	cursor: pointer;
+}
+
+.faqItem .desc {
+	display: none;
+}
+
+.visible .desc {
+	display: block;
+	padding-bottom: 20px;
+}
+
+.faqItem .toggleButton {
+	float: right;
+	vertical-align: top;
+	margin-top: 10px;
+	height: 33px;
+	cursor: pointer;
+}

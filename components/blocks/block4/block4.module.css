@@ -1,0 +1,53 @@
+.container {
+    text-align: center;
+    min-height: 300px;
+    margin: 0px 120px;
+}
+
+.countBox {
+	width: 100px;
+	height: 120px;
+	background: url(/images/group4Box.png) no-repeat;
+    background-size: contain;
+    text-align: center;
+	display:flex;
+	align-items:center;
+}
+
+.countBox span {
+	width: 100%;
+	vertical-align: middle;
+	font-weight: bold;
+	font-size: 23px;
+}
+
+.blockRow {
+}
+
+.blockRow .blockItem {
+	display: inline-block;
+	min-width: 180px;
+	max-width: 200px;
+	vertical-align: top;
+}
+.blockRow .blockItem .blockCount {
+	display: inline-block;
+}
+.blockRow .blockItem .blockTitle {
+	margin-top: 20px;
+}
+
+.blockRow .blockItem .blockDesc {
+	margin-top: 20px;
+	font-size: 16px;
+}
+
+.blockRow .blockItem .blockItemConnect {
+	display: flex;
+	align-items: center;
+	height: 120px;
+	width: 100%;
+}
+.blockRow .blockItem .blockItemConnect img {
+	width: 100%;
+}

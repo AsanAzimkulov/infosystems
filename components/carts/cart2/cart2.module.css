@@ -1,0 +1,13 @@
+.container {
+  aspect-ratio: 1.77/1;
+  background: center no-repeat url("/icons/cart2.svg");
+  background-size: 100%;
+  display: grid;
+  align-items: center;
+  align-content: center;
+  grid-row-gap: 25px;
+  text-align: center;
+  font-size: 15px;
+
+  line-height: 20px;
+}

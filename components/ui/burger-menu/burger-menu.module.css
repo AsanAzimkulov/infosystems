@@ -1,0 +1,53 @@
+.container {
+  position: absolute;
+  top: 1px;
+  bottom: 1px;
+  right: 1px;
+  left: 1.8px;
+  background: #0f0425;
+  display: grid;
+  align-items: center;
+  align-content: center;
+}
+
+.menuIcon {
+  display: inherit;
+}
+
+.menuArea {
+  display: none;
+  padding-left: 100px;
+}
+
+.menuLink {
+  display: block;
+  padding: 10px 0px;
+}
+
+.containerBorder:hover {
+  height: 265px;
+}
+
+.containerBorder:hover .menuIcon {
+  display: none;
+}
+.containerBorder:hover .menuArea {
+  display: block;
+}
+
+.polygon {
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 20% 100%);
+}
+
+.containerBorder {
+  position: relative;
+  transition: height 0.3s;
+  width: 25vw;
+  height: 80px;
+  position: relative;
+  background: linear-gradient(
+    140deg,
+    rgba(17, 217, 235, 1) 0%,
+    rgba(228, 43, 200, 1) 40%
+  );
+}

@@ -1,0 +1,53 @@
+.container {
+  background: center no-repeat url("/icons/cart1.svg");
+  background-size: contain;
+  aspect-ratio: 1.12/1;
+  margin-top: 30px;
+  display: grid;
+  position: relative;
+} 
+
+.icon {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  margin:auto;
+  height: 110px;
+  width: 100px;
+  height: calc(100%/3);
+  width: calc(100%/3);
+  padding-bottom: calc(100%/3);
+  display: grid;
+  align-items: center;
+  align-content: center;
+  background: url(/icons/cart1_icon.svg) no-repeat;
+  background-size: cover;
+}
+
+.icon > div {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+}
+
+.icon > div > div {
+  width: 100%;
+}
+
+.icon img {
+  width: 20%;
+}
+
+.text {
+  margin-top: 15%;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+  display: grid;
+  align-items: center;
+  align-content: center;
+  height: calc(100% - 16%);
+}

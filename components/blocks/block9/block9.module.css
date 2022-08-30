@@ -1,0 +1,11 @@
+.container {
+    text-align: center;
+    min-height: 300px;
+    margin: 30px 120px 0px;
+}
+
+.container .imgLine {
+	max-width: 100%;
+	max-width: calc(min(1200px, 100%));
+	margin-top: 100px;
+}

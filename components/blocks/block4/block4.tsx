@@ -11,8 +11,7 @@ const Block4: FunctionComponent<Props> = ({ }) => {
   return (
     <div className={styles["container"]}>
         <Title1>How does it work</Title1>
-
-        <div className={styles["blockRow"]} style={{'margin-top': '70px'}}>
+        <div className={styles["blockRow"]} style={{'marginTop': '70px'}}>
         	<div className={styles["blockItem"]}>
         		<div className={styles["blockCount"]}>
 	        		<div className={styles["countBox"]}>
@@ -71,7 +70,7 @@ const Block4: FunctionComponent<Props> = ({ }) => {
         	</div>
         </div>
 
-        <div className={styles["blockRow"]} style={{'margin-top': '70px'}}>
+        <div className={styles["blockRow"]} style={{'marginTop': '70px'}}>
         	<div className={styles["blockItem"]}>
         		<div className={styles["blockCount"]}>
 	        		<div className={styles["countBox"]}>

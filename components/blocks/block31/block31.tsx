@@ -19,7 +19,7 @@ const Block31: FunctionComponent = () => {
              for the actions that the user performs in the real world.
           </p>
           <p className={styles["info__paragraph"]}>
-            To do this, you need to "link" your account with a mobile device.
+            To do this, you need to &quot;link&quot; your account with a mobile device.
             In a specific case, each user earns for daily movements on any type of transport, developing with a speed of 10 to 60 km/h
           </p>
           <div className={styles["info__buttons"]}>

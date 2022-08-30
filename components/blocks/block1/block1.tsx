@@ -39,7 +39,7 @@ const Block1: FunctionComponent = () => {
               </a>
             </div>
           </div>
-          <Image src="/icons/title.svg" width="1074" height="149" alt=""></Image>
+          <img src="/icons/title.svg" className={ styles.topLogo } alt="" />
           <div className={styles["first__block2"]}>
             <div>
               <Image src="/icons/el1.svg" width="72" height="44" alt=""></Image>

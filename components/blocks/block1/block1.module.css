@@ -16,6 +16,11 @@
   );
 }
 
+.topLogo {
+  max-width: 700px;
+  width: 100%;
+}
+
 .video-bg {
   position: absolute;
   z-index: -1;

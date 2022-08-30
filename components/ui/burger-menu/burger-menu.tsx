@@ -7,7 +7,7 @@ const BurgerMenu: FunctionComponent = () => {
     <div className={`${styles.containerBorder} ${styles.polygon}`}>
       <div className={`${styles.container} ${styles.polygon}`}>
       	<div className={ styles.menuIcon }>
-        	<Image src="/icons/burger.svg" width={39} height={28} alt=""></Image>
+        	<img src="/icons/burger.svg" width={28} alt="" />
       	</div>
       	<div className={ styles.menuArea }>
       		<a href="#" className={ styles.menuLink }>Home</a>

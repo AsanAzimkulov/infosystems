@@ -69,13 +69,15 @@ const Home: NextPage = () => {
         ]}></BlockTeam>
 
         {/*Team*/}
-        <BlockTeam title="Team" members={[
-        	{'title': 'Jane Cooper', 'email': 'debra.holt@example.com'},
-        	{'title': 'Leslie Alexander', 'email': 'bill.sanders@example.com'},
-        	{'title': 'Dianne Russell', 'email': 'sara.cruz@example.com'},
-        	{'title': 'Ralph Edwards', 'email': 'michelle.rivera@example.com'},
-        	{'title': 'Darrell Steward', 'email': 'alma.lawson@example.com'}
-        ]}></BlockTeam>
+        <div style={{'marginTop': '70px'}}>
+            <BlockTeam title="Team" members={[
+            	{'title': 'Jane Cooper', 'email': 'debra.holt@example.com'},
+            	{'title': 'Leslie Alexander', 'email': 'bill.sanders@example.com'},
+            	{'title': 'Dianne Russell', 'email': 'sara.cruz@example.com'},
+            	{'title': 'Ralph Edwards', 'email': 'michelle.rivera@example.com'},
+            	{'title': 'Darrell Steward', 'email': 'alma.lawson@example.com'}
+            ]}></BlockTeam>
+        </div>
 
     	{/*FAQ*/}
     	<BlockFAQ items={[

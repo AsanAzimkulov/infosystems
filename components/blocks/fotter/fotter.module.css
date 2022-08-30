@@ -2,9 +2,7 @@
     text-align: center;
     min-height: 300px;
     margin: 150px 0px 0px;
-
-	background: rgba(84, 57, 236, 0.05);
-	backdrop-filter: blur(135px);
+	background-color: #11072e;
 }
 
 .wrapper {

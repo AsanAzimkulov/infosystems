@@ -18,15 +18,17 @@ const Block2: FunctionComponent = () => {
             </video>
           </div>
           <div className={styles["info"]}>
-            <p className={styles["info__paragraph"]}>
-              This is a game app, using which you earn tokens for every km of
-              riding any type of transport, at a speed of 10 to 60 km/h.
-            </p>
-            <p className={styles["info__paragraph"]}>
-              It is simple: buy a Veeman NFT car, travel by any type of
-              transport and earn VMS tokens. Increase your game fleet, capture
-              territories and increase the number of tokens you get.
-            </p>
+            <div>
+              <p className={styles["info__paragraph"]}>
+                This is a game app, using which you earn tokens for every km of
+                riding any type of transport, at a speed of 10 to 60 km/h.
+              </p>
+              <p className={styles["info__paragraph"]}>
+                It is simple: buy a Veeman NFT car, travel by any type of
+                transport and earn VMS tokens. Increase your game fleet, capture
+                territories and increase the number of tokens you get.
+              </p>
+            </div>
           </div>
         </div>
         <Title1>Mechanics</Title1>

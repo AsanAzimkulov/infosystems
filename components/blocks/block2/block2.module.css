@@ -58,7 +58,9 @@
 }
 
 .info {
-  text-align: left;
+	text-align: left;
+	display: flex;
+	align-items: center;
 }
 
 .info__paragraph {
@@ -79,7 +81,7 @@
   background: center no-repeat url("/icons/video-border1.svg");
   background-size: contain;
   position: relative;
-  max-width: 550px;  
+  max-width: 700px;  
 }
 
 .video-block video {

@@ -1,0 +1,332 @@
+.root{
+  margin-bottom: 211px;
+  // Scale values get 28 px of it
+
+  position: relative;
+
+  &::after{
+    width: 1870px;
+    height: 1870px;
+    background: url("../../assets/images/orbits-bg.svg");
+    content: "";
+    display: block;
+    top: -139px;
+    left: -366px;
+    position: absolute;
+    background-size: 1927px 1746px;
+    background-repeat: no-repeat;
+  }
+  &::before{
+    position: absolute;
+    display: block;
+    width: 1185.68px;
+    height: 703.47px;
+    background: linear-gradient(180deg, rgba(0, 65, 218, 0.161) 0%, rgba(40, 0, 153, 0.161) 91.72%);
+    filter: blur(100px);
+    border-radius: 2.71815e+07px;
+    transform: rotate(131.65deg);
+    content: "";
+    left: -610px;
+    top: 460px;
+  }
+}
+
+.title{
+  margin-bottom: 108px;
+}
+.sectionTitle{
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #AAAAAA;
+  margin-bottom: 21px;
+  text-align: center;
+}
+
+.title{
+  text-align: center;
+  color: #FFFFFF;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  margin-bottom: 65px;
+}
+
+.doubleColumns{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.chart{
+  width: 42.47%;
+  position: relative;
+  z-index: 2;
+  &::before{
+    content: '';
+    display: block;
+    width: 3px;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background:  linear-gradient(180deg, rgba(12, 10, 23, 0.9) -18%, rgba(56, 116, 255, 0.9) 47.58%, rgba(11, 10, 19, 0.9) 119.72%);
+    border-radius: 2px;
+  }
+
+  &__middleLine{
+    background:  linear-gradient(90deg, rgba(12, 10, 23, 0.9) -18%, rgba(56, 116, 255, 0.9) 47.58%, rgba(11, 10, 19, 0.9) 119.72%);
+    height: 3px;
+    width: 100%;
+    border-radius: 2px;
+    margin:27px 5px;
+  }
+
+  &__top, &__bottom{
+    margin-left: 14px;
+    margin-right: 53px;
+  }
+
+  &__verticalLine{
+    position: absolute;
+    height: 100%;
+    width: 5px;
+    background: url('../../assets/icons/chartDashedLine.svg')no-repeat;
+    display: block;
+    top: 0px;
+    left: 24%;
+    z-index: 3;
+    &:nth-child(2){
+      left: 49%;
+    }
+    &:nth-child(3){
+      left: 74%;
+    }
+  }
+
+  .chartItem{
+    height: 19px;
+    border-radius: 15px;
+    z-index: 4;
+    position: relative;
+  }
+  &__top{
+    margin-top: 43px;
+    .chartItem:not(.chartItem:last-of-type){
+      margin-bottom: 46px;
+    }
+    .chartItem:nth-child(1){
+      width: 24.88%;
+      background: #2B40BF;
+      box-shadow: 0px -2px 23px rgba(42, 7, 254, 0.8);
+    }
+    .chartItem:nth-child(2){
+      width: 56.97%;
+      background: #0C62EE;
+      box-shadow: 0px -2px 23px rgba(42, 7, 254, 0.8);
+    }
+    .chartItem:nth-child(3){
+      width: 100%;
+      background: #09A2FE;
+      box-shadow: 0px -2px 23px rgba(42, 7, 254, 0.8);
+    }
+  }
+
+  &__bottom{
+    margin-bottom: 43px;
+        .chartItem:not(.chartItem:first-of-type){
+      margin-top: 46px;
+    }
+    .chartItem:nth-child(1){
+      width: 100%;
+      background: #44FACE;
+      box-shadow: 0px -2px 23px rgba(7, 254, 224, 0.8);
+    }
+    .chartItem:nth-child(2){
+      width: 43%;
+      background: #00FFA3;
+      box-shadow: 0px -2px 23px rgba(7, 254, 224, 0.8);
+    }
+    .chartItem:nth-child(3){
+      width: 17.67%;
+      background: #00CF6C;
+      box-shadow: 0px -2px 23px rgba(7, 254, 224, 0.8);
+    }
+  }
+}
+
+.text{
+  padding-top: 43px;
+  width: 31.28% ;
+  &__title{
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 43px;
+    color: #FFFFFF;
+    margin-bottom: 31px;
+    text-align: left;
+  }
+}
+
+.list{
+  list-style: none;
+  padding-left: 40px;
+}
+
+.listItem{
+  margin-bottom: 26px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #E9E9E9;
+  width: 90%;
+  position: relative;
+  &:last-child{
+    margin-bottom: 0;
+  }
+  &::before{
+    content: '';
+    position: absolute;
+    top: -4px;
+    left: -40px;
+    display: block;
+    width: 33px;
+    height: 40px;
+  }
+  &:nth-child(1)::before{
+    background: url('../../assets/icons/listMarkerArrowBlue.svg');
+  }
+
+  &:nth-child(2)::before{
+    background: url('../../assets/icons/listMarkerArrowPink.svg');
+  }
+}
+
+.button{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+  padding: 20px 60px;
+  background: linear-gradient(140.6deg, #3E6FF9 -27.18%, #3E53F8 126.06%);
+  box-shadow: 0px 0px 49px rgba(42, 7, 254, 0.4);
+  border-radius: 10px;
+  text-decoration: none;
+  margin-top: 44px;
+  display: block;
+  width: fit-content;
+  z-index: 2;
+  position: relative;
+  &:hover{
+    background: linear-gradient(140.6deg, #2f53b6 -27.18%, #3143ce 126.06%);
+  }
+}
+
+
+
+.scale{
+  position: absolute;
+  bottom: -11px;
+  left: 15px;
+  display: flex;
+  justify-content: space-between;
+  width: 75.25%;
+}
+
+.scaleItem{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #D4D4D4;
+}
+
+@media(max-width: 991.5px){
+  .root{
+    margin-bottom: 100px;
+    &::after{
+      width: 1926px;
+      height: 1926px;
+      background: url("../../assets/images/orbits-bg.svg");
+      content: "";
+      display: block;
+      top: -139px;
+      left: -346px;
+      position: absolute;
+      background-size: 1926px 1926px;
+      background-repeat: no-repeat;
+    }
+    &::before{
+      width: 477.3px;
+      height: 283.18px;
+      background: linear-gradient(180deg, rgba(0, 65, 218, 0.261) 0%, rgba(40, 0, 153, 0.261) 91.72%);
+      filter: blur(100px);
+      border-radius: 2.71815e+07px;
+      transform: rotate(131.65deg);
+      content: "";
+      display: block;
+      top: 367px;
+      left: -138px;
+      position: absolute;
+    }
+
+  }
+
+  .title{
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 48px;
+    text-align: center;
+  }
+  .titles{
+    margin-bottom: 40px;
+  }
+
+  .doubleColumns{
+    display: block;
+  }
+
+  .chart{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 35px;
+  }
+
+  .text{
+    width: 100%;
+    &__title{
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 43px;
+      margin-bottom: 20px;
+    }
+
+    .list{
+      padding-left: 30px;
+    }
+  }
+  
+
+  .listItem{
+    font-size: 16px;
+    line-height: 19px;
+    &:not(.listItem:last-of-type){
+      margin-bottom: 32px;
+    }
+  }
+
+  .scale{
+    bottom: -18px;
+  }
+
+  .button{
+    font-size: 16px;
+    line-height: 19px;
+    padding: 20px 57px;
+    margin-top: 33px;
+  }
+
+}

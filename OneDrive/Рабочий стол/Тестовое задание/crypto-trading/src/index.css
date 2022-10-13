@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: "Mazzard", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.contentWrapper {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+
+
+@media(max-width: 1220px) {
+  .contentWrapper {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+}
+
+@media(max-width: 767.5px) {
+  .contentWrapper {
+    padding-right: 28px;
+    padding-left: 28px;
+  }
+}
+
+
+
+
+.App {
+  background: #000000;
+  width: 100%;
+  overflow: hidden;
+}
+
+
+
+* {
+  margin: 0;
+}
